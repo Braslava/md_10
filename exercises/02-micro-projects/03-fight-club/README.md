@@ -4,11 +4,6 @@
 # Description
 The goal of this task is to create a simple fighting game.
 
-The user will be asked to choose a character, give it a name and pick an opponent.
-
-While fighting the user will be asked to pick an attack type.
-
-First fighter to lose all health loses.
 # Setup
 After making a copy of this repository, open it in your code editor and type `npm install` in terminal.
 
@@ -108,12 +103,12 @@ To start the game type `npm start` in terminal.
 
 - be used in `fight` function to determine, if opponent uses `attack()` or `useSpecialAttack()` methhod. If returned number is less than 25, use special attack
 
-# Knockout round (For fun)
+## Knockout round (For fun)
 
 Upgrade the fighters with other speacial powers.
 
 Make it possible to choose difficulty levels.
 
-Put all created heroes in Gym class and let the user play with the same character multiple times. Maybe add levels and experience to heroes.
+Let the user play with the same character multiple times. Maybe add levels and experience to heroes.
 
 Get crative and share your result in the CODELEX circle :)
