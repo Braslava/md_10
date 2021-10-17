@@ -7,6 +7,8 @@
  * Output: ["apple", "apple"]
  */
 
-function filterApples(input: string[]) { }
+function filterApples(input: string[]) {
+    return input.filter(item => item === 'apple')
+ }
 
 export { filterApples };

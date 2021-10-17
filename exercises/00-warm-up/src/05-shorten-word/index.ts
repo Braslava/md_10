@@ -8,6 +8,8 @@
  * Output: "Pea"
  */
 
-function shortenWord(input: string) { }
+function shortenWord(input: string) {
+    return input.slice(0, 3); 
+ }
 
 export { shortenWord };

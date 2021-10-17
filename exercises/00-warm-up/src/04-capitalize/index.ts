@@ -8,6 +8,8 @@
  * Output: "SCOTLAND HAS 421 WORDS FOR SNOW"
  */
 
-function capialize(input: string) { }
+function capialize(input: string) {
+    return input.toUpperCase(); 
+ }
 
 export { capialize };

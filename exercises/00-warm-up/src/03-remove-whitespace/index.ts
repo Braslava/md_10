@@ -8,6 +8,8 @@
  * Output: "At the center of each galaxy there is a black hole"
  */
 
-function removeWhitespace(input: string) { }
+function removeWhitespace(input: string) {
+    return input.trim(); 
+ }
 
 export { removeWhitespace };

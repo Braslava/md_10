@@ -8,6 +8,8 @@
  * Output: 5
  */
 
-function roundUp(input: number) { }
+function roundUp(input: number) { 
+    return Math.ceil(input); 
+}
 
 export { roundUp };

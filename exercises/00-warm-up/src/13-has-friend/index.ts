@@ -8,6 +8,8 @@
  * Output: true
  */
 
-function hasFriend(input: string[]) { }
+function hasFriend(input: string[]) {
+    return input.find(word => word ==="friend") === 'friend';
+ }
 
 export { hasFriend };

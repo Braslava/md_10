@@ -7,6 +7,8 @@
  * Output: 4
  */
 
-function getLength(input: string[]) { }
+function getLength(input: string[]) { 
+    return input.length; 
+}
 
 export { getLength };

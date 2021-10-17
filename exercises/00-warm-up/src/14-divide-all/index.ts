@@ -9,6 +9,8 @@
  * Output: [1, 2, 3]
  */
 
-function divideAll(input: number[]) { }
+function divideAll(input: number[]) {
+    return input.map(num => num / 2)
+ }
 
 export { divideAll };

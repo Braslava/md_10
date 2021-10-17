@@ -8,6 +8,8 @@
  * Output: "123"
  */
 
-function numberToString(input: number) { }
+function numberToString(input: number) {
+    return input.toString(); 
+ }
 
 export { numberToString };

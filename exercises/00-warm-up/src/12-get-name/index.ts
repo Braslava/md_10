@@ -12,7 +12,9 @@
  * Output: "Sherlock"
  */
 
-function getName(input: Person) { }
+function getName(input: Person) { 
+    return input.name; 
+}
 
 export { getName };
 

@@ -8,6 +8,8 @@
  * Output: true
  */
 
-function isNumber(input: any) { }
+function isNumber(input: any) {
+    return typeof(input) === "number"; 
+ }
 
 export { isNumber };

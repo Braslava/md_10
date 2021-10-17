@@ -7,6 +7,8 @@
  * Output: "A"
  */
 
-function findThirdLetter(input: string) { }
+function findThirdLetter(input: string) { 
+    return input[2]; 
+}
 
 export { findThirdLetter };

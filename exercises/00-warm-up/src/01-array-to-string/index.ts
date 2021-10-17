@@ -9,6 +9,8 @@
  * Output: "Banana, apple"
  */
 
-function arrayToString(input: string[]) { }
+function arrayToString(input: string[]) { 
+    return input.join(', ');
+}
 
 export { arrayToString };

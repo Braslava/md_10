@@ -8,6 +8,8 @@
  * Output: 5
  */
 
-function stringToNumber(input: string) { }
+function stringToNumber(input: string) { 
+    return parseInt(input);
+}
 
 export { stringToNumber };

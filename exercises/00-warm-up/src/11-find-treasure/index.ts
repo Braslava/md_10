@@ -7,6 +7,8 @@
  * Output: 1
  */
 
-function findTreasure(input: string[]) { }
+function findTreasure(input: string[]) { 
+    return input.findIndex(word => word === 'treasure')
+}
 
 export { findTreasure };

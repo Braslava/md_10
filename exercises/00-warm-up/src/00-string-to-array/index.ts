@@ -8,6 +8,8 @@
  * Output: ["K","i","t","t","e","n"]
  */
 
-function stringToArray(input: string) { }
+function stringToArray(input: string) {
+    return input.split('');
+ }
 
 export { stringToArray };

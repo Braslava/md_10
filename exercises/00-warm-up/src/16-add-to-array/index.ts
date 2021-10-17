@@ -8,6 +8,9 @@
  * Output: [1, 2, 3, 1000]
  */
 
-function addToArray(input: number[]) { }
+function addToArray(input: number[]) {
+    input.push(1000); 
+    return input; 
+ }
 
 export { addToArray };

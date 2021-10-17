@@ -7,6 +7,9 @@
  * Output: true
  */
 
-function isQuestion(input: string) { }
+function isQuestion(input: string) { 
+    const lastChar: string = input[input.length -1]; 
+    return lastChar === '?' 
+}
 
 export { isQuestion };

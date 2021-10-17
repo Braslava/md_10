@@ -9,6 +9,8 @@
  * Output: [3, 2, 1]
  */
 
-function reverseArray(input: (string[] | number[])) { }
+function reverseArray(input: (string[] | number[])) { 
+    return input.reverse(); 
+}
 
 export { reverseArray };

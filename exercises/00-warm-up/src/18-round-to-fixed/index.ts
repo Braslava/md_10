@@ -8,6 +8,8 @@
  * Output: 4.56
  */
 
-function roundTofixed(input: number) { }
+function roundTofixed(input: number) { 
+    return parseFloat(input.toFixed(2));
+}
 
 export { roundTofixed };
