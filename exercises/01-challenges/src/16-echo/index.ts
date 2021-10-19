@@ -4,6 +4,12 @@
  * parameter is the number of times the string is to be repeated.
  */
 
-function echo(text: string, repetition: number) { }
+ function echo(text: string, repetition: number): string {
+    let output = ""
+        for(let i = 1; i <= repetition; i++){
+         output = output + text; 
+        }
+        return output
+     }
 
 export { echo };

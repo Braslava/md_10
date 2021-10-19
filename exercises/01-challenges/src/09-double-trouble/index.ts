@@ -5,6 +5,14 @@
  * returns a new array in the same sequential order as the old array (minus duplicates).
  */
 
-function doubleTrouble(list: string[]) { }
+function doubleTrouble(list: string[]): string[] {
+    let uniqueNames: string[] = [];
+    list.forEach(name => {
+        if (uniqueNames.indexOf(name) === -1) {
+            uniqueNames.push(name);
+        }
+    });
+    return uniqueNames;
+}
 
 export { doubleTrouble };

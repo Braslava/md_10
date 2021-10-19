@@ -11,6 +11,10 @@
  * Output: 266
  */
 
-function boxVolume(boxes: number[][]) { }
+ function boxVolume(boxes: number[][]): number {
+    const boxVolumes = boxes.map(box => box.reduce((accumulator, currentVal) => accumulator * currentVal));
+    const allBoxVolumes = boxVolumes.reduce((accumulator1, currentVal1) => accumulator1 + currentVal1);
+    return allBoxVolumes;
+}
 
 export { boxVolume };

@@ -3,6 +3,9 @@
  * Return the final price after the discount.
  */
 
-function discount(price: number, discount: number) { }
+function discount(price: number, discount: number) {
+    const discountAmount = price * discount/100; 
+    return price - discountAmount; 
+ }
 
 export { discount };

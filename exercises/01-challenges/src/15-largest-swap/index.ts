@@ -2,6 +2,13 @@
  * Write a function that takes a two-digit number and determines, if it's the largest of two possible digit swaps.
  */
 
-function largestSwap(number: number) { }
+function largestSwap(number: number): boolean {
+    let swappedNum = parseInt(number
+        .toString()
+        .split('')
+        .reverse()
+        .join(''));
+    return number > swappedNum;
+}
 
 export { largestSwap };

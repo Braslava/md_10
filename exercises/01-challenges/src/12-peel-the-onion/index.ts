@@ -19,6 +19,11 @@
 ]
  */
 
-function peelTheOnion(onion: (string | number)[][]) { }
+function peelTheOnion(onion: (string | number)[][]) {
+  let peeledOnion = onion
+    .slice(1, -1)
+    .map(layer => layer.slice(1, -1));
+  return peeledOnion;
+}
 
 export { peelTheOnion };
